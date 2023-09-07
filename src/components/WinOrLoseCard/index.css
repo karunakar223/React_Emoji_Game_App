@@ -1,0 +1,129 @@
+/* Write your code here. */
+.win-lose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff33;
+  border-radius: 23px;
+  margin: auto;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-lose-card {
+    width: 80%;
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-lose-card {
+    flex-direction: row;
+    width: 72%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-lose-card {
+    width: 60%;
+  }
+}
+
+.result-details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .result-details-section {
+    order: 0;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+
+.present-score {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .present-score {
+    font-size: 36px;
+  }
+}
+
+.score-value {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-value {
+    font-size: 48px;
+  }
+}
+
+.reset-btn {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .image-section {
+    order: 1;
+  }
+}
+
+.img {
+  height: 200px;
+  width: 150px;
+}
+
+@media screen and (min-width: 992px) {
+  .img {
+    height: 450px;
+    width: 350px;
+  }
+}
